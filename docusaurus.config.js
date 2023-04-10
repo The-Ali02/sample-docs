@@ -42,8 +42,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/The-Ali02/sample-docs/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/The-Ali02/sample-docs/tree/main/",
         },
         blog: {
           showReadingTime: true,
@@ -65,21 +64,15 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "Markdown Tutorial",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
         },
         items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorial",
-          },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/facebook/sample-wiki",
             label: "GitHub",
             position: "right",
           },
@@ -93,7 +86,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/intro",
+                to: "/intro",
               },
             ],
           },
@@ -101,16 +94,16 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/rehan-b65b59216",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Instagram",
+                href: "https://www.instagram.com/__rehanali/",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/theRehanAli02/",
               },
             ],
           },
@@ -119,16 +112,16 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "/blog",
+                href: "https://medium.com/@rehanalifarooqui16/java-or-c-for-coding-6da7c146760d",
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/The-Ali02",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Rehan Ali.`,
       },
       prism: {
         theme: lightCodeTheme,
